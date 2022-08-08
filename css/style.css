@@ -1659,6 +1659,15 @@ header.main-header nav .ownmenu li {
 	background: #3c3c3c;
 	text-transform: uppercase;
 }
+
+.footer-up .work-email {
+	padding: 50px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	min-height: 200px;
+	background: #3c3c3c;
+	text-transform: lowercase;
+}
 .footer-up .contact {
 	padding: 50px;
 	padding-top: 80px;
