@@ -925,12 +925,23 @@ header.main-header nav .ownmenu li {
 }
 .port-folio-row li {
 	padding: 0px;
+	
 	position: relative;
 	overflow: hidden;
+	/* max-width: 400px;
+	max-height: auto; */
 }
 .port-folio-row li img {
 	width: 100%;
+	padding: 20px;
 }
+
+.port-folio-row li figcaption {
+	width: 100%;
+	padding: 10px 30px 30px 30px ;
+}
+
+
 .port-folio-row li .hover-port {
 	position: absolute;
 	left: 0px;
@@ -1666,7 +1677,7 @@ header.main-header nav .ownmenu li {
 	padding-bottom: 10px;
 	min-height: 200px;
 	background: #3c3c3c;
-	text-transform: lowercase;
+	
 }
 .footer-up .contact {
 	padding: 50px;
