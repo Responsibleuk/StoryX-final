@@ -891,6 +891,8 @@ header.main-header nav .ownmenu li {
       PORTFOLIO
 ========================================================*/
 .portfolio {
+	max-width: 85%;
+	margin: auto;
 }
 .portfolio .filter {
 	position: relative;
@@ -1013,6 +1015,10 @@ header.main-header nav .ownmenu li {
 .portfolio li article {
 	position: relative;
 	overflow: hidden;
+	background-color: #ffffff;
+	margin: 15px;
+	border: 1px solid #d5d5d5;
+	box-shadow: 10px 10px 2px -4px #d6d6d6;
 }
 .portfolio .items-spaces li {
 	padding: 15px;
@@ -1655,6 +1661,7 @@ header.main-header nav .ownmenu li {
       Footer Up
 ========================================================*/
 .footer-up {
+	min-height: 100px;
 }
 
 .footer-up .col-sm-3 {
@@ -1664,7 +1671,7 @@ header.main-header nav .ownmenu li {
 }
 .footer-up .work {
 	padding: 50px;
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	min-height: 200px;
 	background: #3c3c3c;
@@ -1673,11 +1680,15 @@ header.main-header nav .ownmenu li {
 
 .footer-up .work-email {
 	padding: 50px;
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	min-height: 200px;
 	background: #3c3c3c;
 	
+	
+}
+.footer-up .work-email h5 {
+	color: white;
 }
 .footer-up .contact {
 	padding: 50px;
@@ -2587,4 +2598,15 @@ header.main-header nav .ownmenu li {
 
 .icon-approach {
 	float: inline-start;
+}
+
+
+.approach {
+	max-width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.approach li {
+	margin: 20px;
 }
