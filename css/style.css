@@ -2610,3 +2610,15 @@ header.main-header nav .ownmenu li {
 .approach li {
 	margin: 20px;
 }
+
+
+
+
+
+
+
+
+a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
