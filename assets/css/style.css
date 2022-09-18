@@ -376,6 +376,8 @@
 .tf-title {
   text-align: center;
   margin-bottom: 15px;
+  margin-top: 35px;
+  
 }
 .tf-title .sub-title {
   line-height: 1.6;
@@ -7220,7 +7222,7 @@ input[type=color]::placeholder {
 
   .light-mode .wrap-about .box-text {
     margin-bottom: 24px;
-    background: rgba(195, 255, 239, 0.1);
+    background: rgba(223, 255, 246, 0.1);
   }
 
   .light-mode .slider-st1 .overlay {
@@ -7235,6 +7237,27 @@ input[type=color]::placeholder {
 
 
 
+/* */
+
+
+.form-check-input:checked {
+    background-color: #3772ff;
+    border-color: #3772ff;
+  }
+  
+  .form-check-input {
+    margin-top: 0.3em;
+    background-color: #D4D4D4;
+    border: none;
+  }
+  
+  .form-check-input:checked[type=radio] {
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
 /* ================================== Mobile Remove ================================== */
 
 @media (max-width: 972px) {
@@ -7242,3 +7265,11 @@ input[type=color]::placeholder {
         display:none;
     }
 }
+
+@media (min-width: 972px) {
+    .desktop-remove {
+        display:none;
+    }
+}
+
+
