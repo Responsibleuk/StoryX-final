@@ -24,6 +24,7 @@
 }
 .header .main-nav {
   position: absolute;
+  margin-left: 20vw;
   left: 31%;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -6300,6 +6301,7 @@ img.mfp-img {
     padding: 10px 10px;
     margin-right: 35px;
     font-size: 14px;
+    
   }
 
   .p-r60 {
@@ -7171,3 +7173,17 @@ input[type=color]::placeholder {
 }
 
 /*# sourceMappingURL=app.css.map */
+
+
+
+
+
+
+.theme-switcher{
+  margin-left: 50px;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
