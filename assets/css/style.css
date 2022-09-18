@@ -7186,13 +7186,58 @@ input[type=color]::placeholder {
 .light-mode {
   background-color: white;
   color: black;
+  
+}
+.light-mode h1 text{
+    background-color: white;
+    color: black;
+    
+  }
+
+  .light-mode .menu-item{
+    
+    color: black;
+    
+  }
+
+  .light-mode a {
+    
+    color: black;
+    
+  }
+
+  .light-mode .h7 {
+    
+    color: black;
+    
+  }
+
+  .light-mode .title {
+    
+    color: black;
+    
+  }
+
+  .light-mode .wrap-about .box-text {
+    margin-bottom: 24px;
+    background: rgba(195, 255, 239, 0.1);
+  }
+
+  .light-mode .slider-st1 .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./../../assets/images/backgroup/bg-light.jpg") center center no-repeat;
+    background-size: cover;
 }
 
 
 
 /* ================================== Mobile Remove ================================== */
 
-@media (max-width: 900px) {
+@media (max-width: 972px) {
     .mobile-remove {
         display:none;
     }
