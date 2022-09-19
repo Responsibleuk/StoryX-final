@@ -39,6 +39,8 @@
   background-color: #141A31;
 }
 
+
+
 #main-nav .menu {
   display: flex;
   align-items: center;
@@ -53,7 +55,7 @@
   line-height: 24px;
   font-family: "Chakra Petch", sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   position: relative;
   display: block;
   color: #fff;
@@ -190,7 +192,7 @@
   font-family: "Chakra Petch", sans-serif;
   color: #fff;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 9px 32px;
   height: 48px;
   border: none;
@@ -284,7 +286,7 @@
   font-family: "Chakra Petch", sans-serif;
   color: #fff;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 10px 32px;
   height: 64px;
   border: none;
@@ -370,7 +372,7 @@
   text-align: center;
 }
 .breadcrumbs h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .tf-title {
@@ -382,13 +384,13 @@
 .tf-title .sub-title {
   line-height: 1.6;
   color: #14C2A3;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "IBM Plex Mono", monospace;
   margin-bottom: 8px;
   letter-spacing: 0.6px;
 }
 .tf-title .title {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .tf-title.st2 {
   text-align: left;
@@ -412,7 +414,7 @@
   font-family: "Chakra Petch", sans-serif;
   font-size: 14px;
   line-height: 22px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   background-color: #14C2A3;
   font-weight: 700;
   height: 32px;
@@ -457,7 +459,7 @@
 .post .read-more {
   font-size: 16px;
   line-height: 24px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   font-family: "Chakra Petch", sans-serif;
   color: #fff;
@@ -649,7 +651,7 @@
   line-height: 1.5;
   color: #fff;
   margin-right: 5px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.6px;
   margin-bottom: 0;
 }
@@ -717,7 +719,7 @@
   font-weight: 700;
   font-family: "Chakra Petch", sans-serif;
   margin-bottom: 3px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #565660;
 }
 .wrap-box-details .previous a:hover,
@@ -888,8 +890,8 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: url("./../../assets/images/backgroup/bg-1.jpg") center center no-repeat;
-  background-size: cover;
+  /* background: url("./../../assets/images/backgroup/bg-1.jpg") center center no-repeat;
+  background-size: cover; */
 }
 .main .page-title .slider-st2 {
   padding: 187px 0 220px;
@@ -929,7 +931,7 @@
   padding-left: 41px;
 }
 .main .page-title .box-slider .content-box h1 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 16px;
 }
 .main .page-title .box-slider .content-box p {
@@ -957,7 +959,7 @@
   padding: 0 19%;
 }
 .main .page-title .slider-st3 .box-slider .content-box h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 15px;
 }
 .main .page-title .slider-st3 .box-slider .content-box p {
@@ -2046,7 +2048,7 @@
 .img-box .content a {
   font-size: 20px;
   line-height: 1.4;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   font-family: "cybox", sans-serif;
 }
@@ -2124,7 +2126,7 @@
   margin-bottom: 5px;
   line-height: 1.4;
   font-weight: 400;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "cybox", sans-serif;
 }
 .team-box .content p {
@@ -4776,7 +4778,7 @@
 }
 .main.home2 .post-item .tag {
   font-family: "Chakra Petch", sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 0.3px;
 }
 .main.home2 .faq .flat-accordion .corner-box {
@@ -4909,7 +4911,7 @@
   bottom: -1px;
 }
 .home3 .tf-section.item-post .post-item .tag {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   font-family: "Chakra Petch", sans-serif;
 }
@@ -5074,7 +5076,7 @@
   margin-bottom: 1px;
 }
 .page-title.p404 h2 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 15px;
 }
 .page-title.p404 p {
@@ -5097,7 +5099,7 @@
 .comimg-soon .sub-heading {
   margin-bottom: 40px;
   letter-spacing: 10.5px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
   color: #B9B9BF;
   margin-left: 45px;
@@ -5111,7 +5113,7 @@
 .comimg-soon h3 {
   color: #fff;
   letter-spacing: 55.6px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 49px;
   margin-left: 56px;
 }
@@ -5213,7 +5215,7 @@
   height: 48px;
   right: 8px;
   top: 8px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   width: 148px;
   letter-spacing: 1px;
 }
@@ -7237,15 +7239,10 @@ input[type=color]::placeholder {
     
   }
 
-  .light-mode .slider-st1 .overlay {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: url("./../../assets/images/backgroup/bg-light.jpg") center center no-repeat;
-    background-size: cover;
-}
+  .light-mode .inner-page .header {
+    background-color: #ffffff;
+  }
+ 
 
 
 
@@ -7269,8 +7266,18 @@ input[type=color]::placeholder {
     background-position: center;
   }
 
+.p-about {
+  font-size: larger;
+  text-align: left;
+}
 
+.left {
+  text-align: left;
+}
 
+.x {
+  color  : #14C2A3;
+}
 
 /* ================================== Mobile Remove ================================== */
 
