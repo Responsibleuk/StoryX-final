@@ -7230,6 +7230,13 @@ input[type=color]::placeholder {
     background: rgba(223, 255, 246, 0.1);
   }
 
+
+  .light-mode .tf-item-details {
+    
+    color: black;
+    
+  }
+
   .light-mode .slider-st1 .overlay {
     position: absolute;
     left: 0;
@@ -7261,6 +7268,8 @@ input[type=color]::placeholder {
     background-repeat: no-repeat;
     background-position: center;
   }
+
+
 
 
 /* ================================== Mobile Remove ================================== */
