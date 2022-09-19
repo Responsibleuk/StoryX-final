@@ -7190,6 +7190,11 @@ input[type=color]::placeholder {
   color: black;
   
 }
+
+
+.light-mode-remove {
+  display:none;
+}
 .light-mode h1 text{
     background-color: white;
     color: black;
